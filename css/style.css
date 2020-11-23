@@ -1,8 +1,17 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  color: red;
+  font-family: 'Mulish', sans-serif;
 }
 
 header {
-  background: red;
+  background: #000;
+}
+
+body {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
