@@ -670,10 +670,6 @@ template {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
   }
-  .stars-item {
-    width: 6px;
-    height: 6px;
-  }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -703,6 +699,12 @@ template {
 @media (max-width: 576px) {
   .logo {
     width: 99px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 85%;
   }
 }
 /*# sourceMappingURL=style.css.map */
