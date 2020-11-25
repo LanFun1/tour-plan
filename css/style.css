@@ -478,6 +478,10 @@ template {
   color: #333333;
 }
 
+.breadcrumb {
+  background-color: inherit;
+}
+
 .breadcrumb-list {
   list-style: none;
   display: -webkit-box;
@@ -508,6 +512,7 @@ template {
 .hotel {
   padding-top: 23px;
   padding-bottom: 70px;
+  background-color: inherit;
 }
 
 .hotel-info {
