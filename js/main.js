@@ -8,3 +8,19 @@ var mySwiper = new Swiper('.swiper-container', {
     prevEl: '.slider-button--prev',
   },
 });
+
+jQuery('body').keydown(function(e){
+    // left arrow
+  if (e.keyCode == 37)
+  {   
+      $('.slider-button--prev').click();
+  }
+    // right arrow
+  if (e.keyCode == 39)
+  {
+      $('.slider-button--next').click();
+  }   
+});
+
+
+
